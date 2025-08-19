@@ -1,0 +1,11 @@
+.fi-global-search-results-ctn {
+    @apply rounded-lg border-0;
+   }
+
+.fi-global-search-result-group-header {
+    @apply bg-gray-100 dark:bg-gray-700 p-4
+}
+
+.fi-global-search-result-group-results {
+    @apply bg-white dark:bg-gray-800
+}

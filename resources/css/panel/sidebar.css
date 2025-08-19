@@ -1,0 +1,49 @@
+.fi-tenant-menu-trigger {
+    @apply px-4 rounded-full;
+}
+.fi-sidebar-open .fi-sidebar-item .fi-sidebar-item-btn {
+    @apply px-4 rounded-full;
+}
+.fi-sidebar-item.fi-active .fi-sidebar-item-btn {
+    @apply transition-all duration-300 rounded-full shadow-sm bg-primary-600 dark:bg-primary-500;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-grouped-border-part {
+    @apply transition-all duration-300 bg-gray-50 dark:bg-gray-800;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-btn .fi-sidebar-item-label,
+.fi-sidebar-item.fi-active .fi-sidebar-item-btn .fi-sidebar-item-icon {
+    @apply text-primary-50;
+}
+
+.fi-sidebar-item > .fi-sidebar-item-btn {
+    @apply hover:bg-gray-100 dark:hover:bg-gray-700 hover:transition-all hover:duration-300 hover:rounded-full;
+}
+
+.fi-sidebar-item:hover .fi-sidebar-item-btn .fi-sidebar-item-label,
+.fi-sidebar-item:hover .fi-sidebar-item-btn .fi-sidebar-item-icon {
+    @apply text-gray-800 transition-all duration-300 dark:text-gray-200;
+}
+
+
+.fi-sidebar-item:hover.fi-active .fi-sidebar-item-btn {
+    @apply bg-primary-500 dark:bg-primary-600;
+}
+
+.fi-sidebar-item:hover.fi-active .fi-sidebar-item-grouped-border-part {
+    @apply transition-all duration-300 bg-gray-50 dark:bg-gray-800;
+}
+
+.fi-sidebar-item:hover.fi-active .fi-sidebar-item-btn .fi-sidebar-item-label,
+.fi-sidebar-item:hover.fi-active .fi-sidebar-item-btn .fi-sidebar-item-icon {
+    @apply transition duration-200 text-gray-50;
+}
+
+.fi-sidebar-item .fi-sidebar-item-badge-ctn .fi-badge{
+    @apply text-white rounded-full bg-primary-600 dark:bg-primary-500;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-badge-ctn .fi-badge{
+    @apply bg-primary-50 text-primary-900 ;
+}

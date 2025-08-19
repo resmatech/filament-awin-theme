@@ -1,0 +1,20 @@
+.fi-wi-stats-overview-stat, .fi-wi-table {
+    @apply shadow-none ring-0 dark:bg-gray-800 rounded-2xl;
+  }
+/* .fi-wi-widget {
+    @apply p-1 bg-white border border-gray-300 dark:bg-gray-800 rounded-2xl dark:border-gray-700;
+}
+.fi-wi-widget .fi-sc-section{
+    @apply bg-white dark:bg-gray-800 rounded-[calc(var(--radius-2xl)-var(--spacing))]  border border-gray-300 dark:border-gray-700 p-1 ring-0 shadow-none;
+} */
+/* .fi-wi-stats-overview .fi-sc-has-gap{
+    @apply gap-8;
+} */
+
+.fi-wi-widget:not(.fi-wi-stats-overview){
+    @apply p-1 border border-gray-300 bg-gray-50 dark:bg-gray-800 rounded-2xl dark:border-gray-700;
+}
+
+.fi-wi-widget.fi-wi-table {
+    @apply p-0 border-0;
+}

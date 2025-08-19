@@ -1,0 +1,3 @@
+.fi-dropdown-panel {
+    @apply rounded-2xl dark:bg-gray-800;
+}

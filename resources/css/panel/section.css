@@ -1,0 +1,7 @@
+.fi-section {
+    @apply bg-white dark:bg-gray-800 rounded-[calc(var(--radius-2xl)-var(--spacing))]  border border-gray-300 dark:border-gray-700 p-1 ring-0 shadow-none;
+}
+
+.fi-sc-section{
+    @apply p-1 border border-gray-300 bg-gray-50 dark:bg-gray-800 rounded-2xl dark:border-gray-700;
+}

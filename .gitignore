@@ -1,0 +1,14 @@
+/vendor
+/node_modules
+.DS_Store
+.env
+*.log
+*.tmp
+*.bak
+*.swp
+*.pid
+*.swo 
+.package-lock.json
+.composer.lock
+.idea
+.vscode

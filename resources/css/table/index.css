@@ -1,0 +1,14 @@
+.fi-ta{
+    @apply bg-gray-50 dark:bg-gray-800 p-1 border border-gray-300 dark:border-gray-700 rounded-2xl;
+}
+.fi-ta-ctn {
+    @apply bg-white dark:bg-gray-800 rounded-[calc(var(--radius-2xl)-var(--spacing))]  border border-gray-300 dark:border-gray-700 ring-0 shadow-none
+}
+
+.fi-ta-ctn .fi-ta-header-toolbar {
+    @apply border-0;
+}
+
+.fi-dropdown .fi-icon-btn-badge-ctn {
+    @apply dark:bg-gray-800;
+}

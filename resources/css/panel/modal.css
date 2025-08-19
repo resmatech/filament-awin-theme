@@ -1,0 +1,6 @@
+/* .fi-modal-window {
+    @apply  border rounded-2xl border-blue-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 relative inline-block before:absolute before:inset-1 before:block  before:bg-white dark:before:bg-gray-800 before:border before:border-gray-300 dark:before:border-gray-700 before:rounded-[calc(var(--radius-2xl)-var(--spacing))] before:-z-10;
+} */
+.fi-modal-window {
+    @apply rounded-2xl;
+}

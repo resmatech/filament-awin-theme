@@ -1,0 +1,27 @@
+.fi-body {
+    @apply bg-white dark:bg-gray-800
+}
+
+.fi-simple-main-ctn {
+    @apply bg-gray-100 dark:bg-gray-900
+}
+
+.fi-simple-main {
+    @apply ring-0 shadow-none bg-gray-50 dark:bg-gray-800 rounded-2xl p-6 border border-gray-300 dark:border-gray-700 relative before:absolute before:inset-1 before:rounded-[calc(var(--radius-2xl)-var(--spacing))]  before:border before:bg-white dark:before:bg-gray-800 before:border-gray-300 dark:before:border-gray-700 ;
+}
+
+.fi-simple-page-content {
+    @apply relative z-10
+}
+
+.fi-main-ctn {
+    @apply bg-gray-100 dark:bg-gray-900 h-[calc(100vh-4rem)] border-t border-s border-gray-300 dark:border-gray-700 overflow-y-auto sm:rounded-ss-4xl;
+  }
+
+.fi-body.fi-body-has-top-navigation .fi-main-ctn {
+    @apply rounded-ss-none;
+}
+
+.fi-body.fi-body-has-sidebar-fully-collapsible-on-desktop .fi-main-ctn:not(.fi-main-ctn-sidebar-open) {
+    @apply  rounded-ss-none;
+}

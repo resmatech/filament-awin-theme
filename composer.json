@@ -1,0 +1,62 @@
+{
+    "name": "resma/filament-awin-theme",
+    "description": "This is my package filament-awin-theme",
+    "keywords": [
+        "Resma",
+        "laravel",
+        "filamentphp",
+        "filament-awin-theme"
+    ],
+    "homepage": "https://github.com/resma/filament-awin-theme",
+    "support": {
+        "issues": "https://github.com/resma/filament-awin-theme/issues",
+        "source": "https://github.com/resma/filament-awin-theme"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rebwar Mustafa",
+            "email": "rebwar.mustafa@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^4.0",
+        "spatie/laravel-package-tools": "^1.15.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Resma\\FilamentAwinTheme\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Resma\\FilamentAwinTheme\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
+        "lint": "pint",
+        "test": "pest",
+        "test:lint": "pint --test"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                
+            ],
+            "aliases": {
+                "FilamentAwinTheme": "Resma\\FilamentAwinTheme\\Facades\\FilamentAwinTheme"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
