@@ -8,7 +8,7 @@
 *.swp
 *.pid
 *.swo 
-.package-lock.json
-.composer.lock
+package-lock.json
+composer.lock
 .idea
 .vscode
