@@ -49,6 +49,51 @@ public function panel(Panel $panel): Panel
 }
 ```
 
+## Screenshots
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <a href="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Dashboard-dark.png" target="_blank">
+                    <img style="border-radius: 10px" src="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Dashboard-dark.png" alt="Dashboard Dark"/>
+                </a>
+            </td>
+            <td>
+                <img style="border-radius: 10px" src="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Dashboard-light.png" alt="Dashboard Light"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Form-dark.png" target="_blank">
+                    <img style="border-radius: 10px" src="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Form-dark.png" alt="Form Dark"/>
+                </a>
+            </td>
+            <td>
+                <img style="border-radius: 10px" src="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Form-light.png" alt="Form Light"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Table-dark.png" target="_blank">
+                    <img style="border-radius: 10px" src="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Table-dark.png" alt="Table Dark"/>
+                </a>
+            </td>
+            <td>
+                <img style="border-radius: 10px" src="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Table-light.png" alt="Table Light"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Notifications-dark.png" target="_blank">
+                    <img style="border-radius: 10px" src="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Notifications-dark.png" alt="Notifications Dark"/>
+                </a>
+            </td>
+            <td>
+                <img style="border-radius: 10px" src="https://raw.githubusercontent.com/resmatech/filament-awin-theme/refs/heads/main/images/Notifications-light.png" alt="Notifications Light"/>
+            </td>
+        </tr>
+    </tbody>
+</table>
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
