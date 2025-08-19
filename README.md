@@ -88,6 +88,7 @@ public function panel(Panel $panel): Panel
         </tr>
     </tbody>
 </table>
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
