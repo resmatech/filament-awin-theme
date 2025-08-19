@@ -1,22 +1,24 @@
 {
     "name": "resma/filament-awin-theme",
-    "description": "This is my package filament-awin-theme",
+    "description": "A modern, responsive, and customizable theme for FilamentPHP, designed to elevate your admin panel with a sleek interface and seamless user experience.",
     "keywords": [
         "Resma",
         "laravel",
         "filamentphp",
-        "filament-awin-theme"
+        "filament-awin-theme",
+        "theme",
+        "filament"
     ],
-    "homepage": "https://github.com/resma/filament-awin-theme",
+    "homepage": "https://github.com/resmatech/filament-awin-theme",
     "support": {
-        "issues": "https://github.com/resma/filament-awin-theme/issues",
-        "source": "https://github.com/resma/filament-awin-theme"
+        "issues": "https://github.com/resmatech/filament-awin-theme/issues",
+        "source": "https://github.com/resmatech/filament-awin-theme"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Rebwar Mustafa",
-            "email": "rebwar.mustafa@outlook.com",
+            "email": "hello@resma.tech",
             "role": "Developer"
         }
     ],
