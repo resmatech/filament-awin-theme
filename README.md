@@ -43,6 +43,32 @@ public function panel(Panel $panel): Panel
 }
 ```
 
+## 🎨 Customizing the Primary Color
+
+The `FilamentAwinTheme` plugin allows you to set a custom primary color for your Filament panel.  
+
+### Using Filament’s Built-in Color Palettes
+
+Filament provides predefined color palettes with proper shades (e.g. `500`, `600`, `700`), which are recommended for consistent UI.
+
+```php
+use Resma\FilamentAwinTheme\FilamentAwinTheme;
+use Filament\Support\Colors\Color;
+
+$panel
+    ->plugins([
+        FilamentAwinTheme::make()
+            ->primaryColor(Color::Emerald), // Use Filament's Emerald color palette
+    ]);
+```
+### Using a Custom Hex Color
+You can also pass a single hex value if you don’t want to use a palette:
+
+```php
+FilamentAwinTheme::make()
+    ->primaryColor('#3b82f6'); // Custom blue color
+```
+
 ## Screenshots
 <table>
     <tbody>
