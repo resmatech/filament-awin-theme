@@ -1,9 +1,11 @@
 .fi-tenant-menu-trigger {
     @apply px-4 rounded-full;
 }
+
 .fi-sidebar-open .fi-sidebar-item .fi-sidebar-item-btn {
     @apply px-4 rounded-full;
 }
+
 .fi-sidebar-item.fi-active .fi-sidebar-item-btn {
     @apply transition-all duration-300 rounded-full shadow-sm bg-primary-600 dark:bg-primary-500;
 }
@@ -17,7 +19,7 @@
     @apply text-primary-50;
 }
 
-.fi-sidebar-item > .fi-sidebar-item-btn {
+.fi-sidebar-item>.fi-sidebar-item-btn {
     @apply hover:bg-gray-100 dark:hover:bg-gray-700 hover:transition-all hover:duration-300 hover:rounded-full;
 }
 
@@ -40,10 +42,10 @@
     @apply transition duration-200 text-gray-50;
 }
 
-.fi-sidebar-item .fi-sidebar-item-badge-ctn .fi-badge{
+.fi-sidebar-item .fi-sidebar-item-badge-ctn .fi-badge {
     @apply text-white rounded-full bg-primary-600 dark:bg-primary-500;
 }
 
-.fi-sidebar-item.fi-active .fi-sidebar-item-badge-ctn .fi-badge{
-    @apply bg-primary-50 text-primary-900 ;
+.fi-sidebar-item.fi-active .fi-sidebar-item-badge-ctn .fi-badge {
+    @apply bg-primary-50 text-primary-900;
 }
