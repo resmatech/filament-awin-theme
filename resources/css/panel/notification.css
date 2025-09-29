@@ -1,14 +1,11 @@
-/* .fi-no-notification{
-    @apply bg-gray-50 dark:bg-gray-800 rounded-2xl p-4 border border-gray-300 dark:border-gray-700 relative before:absolute before:inset-1 before:rounded-[calc(var(--radius-2xl)-var(--spacing))]  before:border before:bg-white dark:before:bg-gray-800 before:border-gray-300 dark:before:border-gray-700 before:z-0;
+.fi-no-database .fi-no-notification-unread-ctn::before {
+    @apply bg-white -z-10 inset-1 rounded-[calc(var(--radius-2xl)-var(--spacing))] border border-gray-300 w-[calc(100%-0.5rem)] h-[calc(100%-0.5rem)];
 }
 
-.fi-no-notification-main, .fi-no-notification-icon {
-    @apply z-10
-} */
-.fi-no-database .fi-no-notification-unread-ctn::before {
-    @apply bg-white dark:bg-gray-800 -z-10 inset-1 rounded-[calc(var(--radius-2xl)-var(--spacing))]  border border-gray-300  w-[calc(100%-0.5rem)] h-[calc(100%-0.5rem)] ;
+.dark .fi-no-database .fi-no-notification-unread-ctn::before {
+    @apply bg-gray-800 border-gray-700;
 }
 
 .fi-no-database .fi-no-notification-unread-ctn {
-    @apply relative z-0 mx-3 my-1.5 border border-gray-300 bg-gray-50 dark:bg-gray-800 rounded-2xl dark:border-gray-700 dark:before:bg-gray-800 dark:before:border-gray-700;
+    @apply relative z-0 mx-3 my-1.5 border border-gray-300 bg-gray-50 rounded-2xl dark:bg-gray-800 dark:border-gray-700;
 }
