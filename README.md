@@ -31,7 +31,7 @@ npm run build
 ### 3. Register the Plugin
 In your panel provider:
 ```php 
-se Resma\FilamentAwinTheme\FilamentAwinTheme;
+use Resma\FilamentAwinTheme\FilamentAwinTheme;
 
 public function panel(Panel $panel): Panel
 {
