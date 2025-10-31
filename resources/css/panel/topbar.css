@@ -3,42 +3,6 @@
     @apply ring-0 shadow-none bg-white dark:bg-gray-800 relative;
 }
 
-.fi-body .fi-topbar-ctn::before {
-    @apply w-full lg:w-[calc(100vw-var(--sidebar-width))] absolute -bottom-[2rem] end-0 content-[""] h-[2rem] lg:rounded-ss-4xl border-t border-s border-gray-300 z-10;
-    background: linear-gradient(to right, var(--color-gray-100) 2rem, transparent 2rem);
-}
-
-.dark .fi-topbar-ctn::before {
-    @apply border-gray-700;
-    background: linear-gradient(to right, var(--color-gray-900) 2rem, transparent 2rem);
-}
-
-.fi-body.fi-body-has-top-navigation .fi-topbar-ctn::before,
-.fi-body-has-sidebar-fully-collapsible-on-desktop:not(:has(.fi-main-ctn.fi-main-ctn-sidebar-open))>.fi-topbar-ctn::before {
-    @apply w-full rounded-ss-none bg-transparent;
-}
-
-.fi-body-has-sidebar-collapsible-on-desktop:not(:has(.fi-main-ctn.fi-main-ctn-sidebar-open))>.fi-topbar-ctn::before {
-    @apply lg:w-[calc(100vw-var(--collapsed-sidebar-width))];
-}
-
-.fi-body .fi-topbar-ctn::after {
-    @apply hidden lg:flex absolute -bottom-[2rem] start-[calc(var(--sidebar-width))] content-[""] w-[2rem] h-[2rem] bg-white;
-}
-
-.fi-body-has-top-navigation .fi-topbar-ctn::after,
-.fi-body-has-sidebar-fully-collapsible-on-desktop:not(:has(.fi-main-ctn.fi-main-ctn-sidebar-open))>.fi-topbar-ctn::after {
-    @apply hidden;
-}
-
-.fi-body-has-sidebar-collapsible-on-desktop:not(:has(.fi-main-ctn.fi-main-ctn-sidebar-open))>.fi-topbar-ctn::after {
-    @apply start-[calc(var(--collapsed-sidebar-width))];
-}
-
-.dark .fi-topbar-ctn::after {
-    @apply bg-gray-800;
-}
-
 /* Topbar items */
 .fi-topbar-item .fi-topbar-item-btn {
     @apply rounded-full px-4;

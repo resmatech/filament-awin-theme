@@ -15,5 +15,15 @@
 }
 
 .fi-main-ctn {
-    @apply bg-gray-100 dark:bg-gray-900 min-h-[calc(100vh-4rem)] border-s border-gray-300 dark:border-gray-700 overflow-y-auto;
+    @apply bg-gray-100 dark:bg-gray-900 h-[calc(100vh-4rem)] border-s border-t rounded-ss-4xl border-gray-300 dark:border-gray-700 overflow-y-auto grid grid-rows-[auto_auto] sticky top-0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.fi-main-ctn::-webkit-scrollbar {
+    @apply hidden;
+}
+
+.fi-main {
+    @apply block min-h-auto h-auto;
 }
