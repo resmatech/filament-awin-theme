@@ -15,7 +15,7 @@
 }
 
 .fi-main-ctn {
-    @apply bg-gray-100 dark:bg-gray-900 h-[calc(100vh-4rem)] border-s border-t lg:rounded-ss-4xl border-gray-300 dark:border-gray-700 overflow-y-auto grid grid-rows-[auto_auto] justify-between sticky top-0;
+    @apply bg-gray-100 dark:bg-gray-900 h-[calc(100vh-4rem)] border-s border-t lg:rounded-ss-4xl border-gray-300 dark:border-gray-700 overflow-y-auto justify-between sticky top-0;
 }
 
 .fi-body.fi-body-has-sidebar-fully-collapsible-on-desktop .fi-main-ctn:not(.fi-main-ctn-sidebar-open) {
